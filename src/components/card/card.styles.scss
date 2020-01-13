@@ -1,0 +1,40 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    // background: linear-gradient(60deg, #000428, #004e92);
+    // background: linear-gradient(89deg, #4ca1af, #c4e0e5);
+    background: linear-gradient(150deg, #d0d3d8, rgb(103, 117, 243)) ;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translate(0);
+    transition: transform 0.25s ease-out;
+    height: auto;
+
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+}
+
+.card-list{
+    margin: 30vm;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    // margin-bottom: 60px;
+}
+
+.particles{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    background-color: white;
+}

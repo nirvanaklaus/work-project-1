@@ -1,0 +1,64 @@
+.particles{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    width: '100%';
+    // background: linear-gradient(89deg, #43cea2, #185a9d)
+    // background: linear-gradient(60deg, #4ca1af, #c4e0e5);
+    background: #4F5F7D;
+
+}
+.sidebar-list{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: bold;;
+    font-family: Times, 'Times New Roman', serif;
+    color: rgb(29, 33, 70)
+}
+
+#abc{
+    background: #5B62CE;
+}
+
+.div1{
+    // margin-right: 20px;
+    // width: 220px;
+    // float: left;
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.main {
+        margin-left: 200px; /* Same as the width of the sidebar */
+        padding: 0px 20px;
+      }
+      
+      /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+      @media screen and (max-height: 450px) {
+        .div1 {padding-top: 15px;}
+          }
+.div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 2px;
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 20px;
+
+}
